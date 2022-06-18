@@ -1,0 +1,13 @@
+.each-product {
+  width: 350px;
+  height: 600px;
+  border-radius: 8px;
+  position: relative;
+}
+.product-info {
+  margin: 5px 14px;
+}
+.product-butn {
+  position: absolute;
+  bottom: 20px;
+}
