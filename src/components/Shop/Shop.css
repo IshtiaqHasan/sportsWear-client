@@ -1,0 +1,24 @@
+/* .shop-container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+} */
+.shop-container {
+  width: 95%;
+}
+.order-summary-container {
+  background-color: lightgray;
+  width: 100%;
+}
+.text-products {
+  color: orange;
+}
+.text-order-summary {
+  color: orange;
+}
+
+/* @media screen and (max-width: 1100px) {
+  .shop-container {
+    display: grid;
+    grid-template-columns: 2fr, 1fr;
+  }
+} */
