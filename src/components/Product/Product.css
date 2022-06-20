@@ -1,16 +1,19 @@
 .each-product {
-  width: 400px;
-  height: 650px;
+  width: 320px;
+  height: 570px;
   border-radius: 8px;
   position: relative;
 }
+
 .product-info {
   margin: 5px 14px;
 }
+
 .text-product-name {
   color: orange;
 }
+
 .product-butn {
   position: absolute;
-  bottom: 20px;
+  bottom: 10px;
 }

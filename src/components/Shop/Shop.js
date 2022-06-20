@@ -19,12 +19,12 @@ const Shop = () => {
   };
 
   return (
-    <div className="shop-container">
+    <div className="container">
       <div className="row">
-        <div className="col-10">
+        <div className="col-lg-10 col-md-6 col-sm-12 mb-5">
           <div className="row">
-            <h1 className="text-products text-center mt-5 mb-5">
-              Our Products
+            <h1 className="text-products mt-5 ms-2 mb-1">
+              Featured Products
             </h1>
             {products.map((product) => (
               <Product
@@ -35,11 +35,11 @@ const Shop = () => {
             ))}
           </div>
         </div>
-        <div className="col-2 order-summary-container">
-          <h4 className="text-order-summary text-center mt-1 mb-5">
+        <div className="col-lg-2 col-md-6 col-sm-0  order-summary-container">
+          <h4 className="text-order-summary text-center mt-1 mb-3">
             Order Summary
           </h4>
-          <p className="ms-5">Selected Items: {cart.length}</p>
+          <p className="ms-3">Selected Items: {cart.length}</p>
         </div>
       </div>
     </div>
