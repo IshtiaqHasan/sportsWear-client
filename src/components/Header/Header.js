@@ -4,7 +4,7 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <Navbar collapseOnSelect className="shadow-lg  bg-dark " expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect className="shadow-lg" bg="light" expand="lg">
       <Container>
         <Navbar.Brand className="text-danger m-0 p-0 fs-1 fw-bold" href="#home">
           Sportswear

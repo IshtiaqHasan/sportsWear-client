@@ -6,16 +6,8 @@ import "./Product.css";
 
 const Product = ({ product, handleAddToCart }) => {
   const {
-    _id,
-    category,
-    name,
-    seller,
-    price,
-    stock,
-    ratings,
-    img,
-    shipping,
-    quantity,
+    _id, category, name, seller, price, stock, ratings, img, shipping, quantity,
+
   } = product;
 
   return (
